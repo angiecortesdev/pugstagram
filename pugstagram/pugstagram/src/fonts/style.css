@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "icomoon";
+  src: url("icomoon.eot?56yt84");
+  src: url("icomoon.eot?56yt84#iefix") format("embedded-opentype"),
+    url("icomoon.ttf?56yt84") format("truetype"),
+    url("icomoon.woff?56yt84") format("woff"),
+    url("icomoon.svg?56yt84#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon" !important;
+  /* speak: none; */
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  content: "\f004";
+  color: grey;
+}
+.icon-user:before {
+  content: "\f007";
+  color: grey;
+}
+.icon-bookmark:before {
+  content: "\f02e";
+  color: grey;
+}
+.icon-paper-plane:before {
+  content: "\f1d8";
+  margin: 10px;
+  color: grey;
+}
+.icon-send:before {
+  color: grey;
+  content: "\f1d8";
+}
+.icon-ellipsis-h:before {
+  content: "\f141";
+  color: grey;
+}

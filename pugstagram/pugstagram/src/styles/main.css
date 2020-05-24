@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0px;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* this is the body */
+
+.leading {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.internal-margin {
+  padding: 0px 50px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* This is the header */
+
+h1 {
+  font-family: pacifico;
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  mix-blend-mode: multiply;
+  position: relative;
+}
+
+h1:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, orange, yellow, red, purple);
+  mix-blend-mode: screen;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.Header {
+  background-color: white;
+  color: #ff0000;
+}
+
+.Header-container {
+  display: grid;
+  grid-template-columns: minmax(auto, 936px);
+  justify-content: center;
+  border-bottom: 1px solid rgba(38, 38, 38, 0.7);
+}
+
+.Header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.Header ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Header li {
+  display: inline-block;
+  margin: 0 0 0 1em;
+}
+
+.Header h1 {
+  color: black;
+}
+
+/* this is the main */
+
+.main-section {
+  display: flex;
+  background-color: #fafafa;
+}
+
+.main-article {
+  flex: 2 1 auto;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 20px 60px 10px 10px;
+}
+.image {
+  align-items: center;
+  height: 500px;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+.elmo {
+  margin-top: 15px;
+  margin-left: -27px;
+}
+
+.elmo2 {
+  margin-left: 65px;
+  font-size: 11px;
+}
+
+.article {
+  background-color: #ffffff;
+  flex: 1 1 auto;
+  margin: 20px 0px 10px 10px;
+}
+
+.image-pug {
+  border-radius: 50%;
+  width: 40px;
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+
+.add-comments {
+  height: 5px;
+  margin-left: 25px;
+  color: #998f8f;
+}
+
+.post {
+  margin-bottom: 80px;
+  margin-left: 630px;
+  color: #0779e4;
+}
+
+/* aside */
+
+.main-aside {
+  background-color: #ffffff;
+  flex: 1 1 auto;
+  margin: 50px 0px 780px 0px;
+  border: 1px solid rgb(255, 254, 254);
+  box-shadow: black;
+}
+
+.left {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.profile {
+  margin: 10px 0 5px 10px;
+  color: #000;
+  padding: 5px;
+}
+
+.profile2 {
+  margin: 50px 0 0px 0px;
+  color: #000;
+  padding: 5px;
+}
+
+.profile .izquierda {
+  border-radius: 50%;
+  width: 40px;
+  float: left;
+  margin-right: 100px;
+  border: 2px solid red;
+}
+
+.on {
+}
+
+.uppercase {
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #918686;
+}
+.text {
+  margin: 0px 10px 0px 50px;
+}
+
+.text2 {
+  color: #998f8f;
+  margin-left: 25px;
+}
+.text3 {
+  color: #998f8f;
+  margin-left: 10px;
+}
+b {
+  margin-left: 25px;
+}
+
+/* This is the icon */
+
+.icon-user:before {
+  margin-left: 12px;
+  margin-top: 20px;
+}
+
+.article .icon-bookmark:before {
+  margin-left: 570px;
+  margin-top: 20px;
+}
+
+.icon-heart {
+  margin-left: 20px;
+}
+
+.icon-ellipsis-h {
+  color: grey;
+}
+
+/* This is  font */
+
+@font-face {
+  font-family: pacifico;
+  src: url("/src/fonts/Pacifico/Pacifico-Regular.ttf");
+  font-family: "icomoon";
+  src: url("icomoon.eot?56yt84");
+  src: url("icomoon.eot?56yt84#iefix") format("embedded-opentype"),
+    url("icomoon.ttf?56yt84") format("truetype"),
+    url("icomoon.woff?56yt84") format("woff"),
+    url("icomoon.svg?56yt84#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
